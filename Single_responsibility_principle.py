@@ -1,3 +1,5 @@
+# Принцип единственной ответственности 
+
 class TelephoneDirectory:
   def __init__(self):
     self.telephonedirectory = {}

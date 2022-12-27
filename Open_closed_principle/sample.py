@@ -1,3 +1,5 @@
+# Принцип открытости/закрытости
+
 from enum import Enum
 from abc import ABCMeta, abstractmethod
 

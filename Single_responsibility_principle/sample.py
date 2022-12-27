@@ -36,13 +36,13 @@ class save_to_file:
   def __init__(self, object_to_save):
     pass
   
-# myTelephoneDirectory = TelephoneDirectory()
-# myTelephoneDirectory.add_entry("Ravi", 123456)
-# myTelephoneDirectory.add_entry("Vikas", 678452)
-# print(myTelephoneDirectory)
+myTelephoneDirectory = TelephoneDirectory()
+myTelephoneDirectory.add_entry("Ravi", 123456)
+myTelephoneDirectory.add_entry("Vikas", 678452)
+print(myTelephoneDirectory)
 
-# myTelephoneDirectory.delete_entry("Ravi")
-# myTelephoneDirectory.add_entry("Ravi", 123456)
-# myTelephoneDirectory.update_entry("Vikas", 776589)
-# print(myTelephoneDirectory.lookup_number("Vikas"))
-# print(myTelephoneDirectory)
+myTelephoneDirectory.delete_entry("Ravi")
+myTelephoneDirectory.add_entry("Ravi", 123456)
+myTelephoneDirectory.update_entry("Vikas", 776589)
+print(myTelephoneDirectory.lookup_number("Vikas"))
+print(myTelephoneDirectory)
